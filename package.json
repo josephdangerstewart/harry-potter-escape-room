@@ -4,7 +4,7 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "start": "nohup npm start >& /dev/null &"
+    "start": "nohup node server >& /dev/null &"
   },
   "repository": {
     "type": "git",
