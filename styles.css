@@ -1,0 +1,176 @@
+@font-face {
+	font-family: HarryPotter;
+	src: url('DJB\ I\ Love\ a\ Ginger.ttf');
+}
+
+html, body {
+	padding: 0;
+	height: 100%;
+	margin: 0;
+	background-color: rgb(99, 110, 105);
+}
+
+strong {
+	text-decoration: underline;
+}
+
+.password {
+	display: inline-block;
+	font-family: HarryPotter;
+	font-size: 48pt;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	height: 100%;
+}
+
+.row {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+	margin: 20px 0;
+}
+
+.circle {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: background-color .2s
+}
+
+/* Colors! */
+
+.blue {
+	background-color: #00243D;
+}
+
+.yellow {
+	background-color: #F4BB0E;
+}
+
+.green {
+	background-color: #145E33;
+}
+
+.red {
+	background-color: #9B0D0D;
+}
+
+.orange {
+	background-color: orange;
+}
+
+.black {
+	background-color: #000;
+}
+
+.silver {
+	background-color: silver;
+}
+
+.purple {
+	background-color: #805E73;
+}
+
+.brown {
+	background-color: #823329;
+}
+
+.rose {
+	background-color: #D56062;
+}
+
+.maroon {
+	background-color: #873D48;
+}
+
+.turquoise {
+	background-color: #9B0D0D;
+}
+
+.iris {
+	background-color: #5762D5;
+}
+
+.gray {
+	background-color: #575366;
+}
+
+.cadet-blue {
+	background-color: #58A4B0;
+}
+
+.bright-red {
+	background-color: #F21B3F;
+}
+
+/* Color Hover Effects */
+
+.blue:hover {
+	background-color: rgba(0, 36, 61, 0.75);
+}
+
+.yellow:hover {
+	background-color: rgba(244, 187, 14, 0.75);
+}
+
+.green:hover {
+	background-color: rgba(20, 94, 51, 0.75);
+}
+
+.red:hover {
+	background-color: rgba(155, 13, 13, 0.75);
+}
+
+.orange:hover {
+	background-color: rgba(255, 166, 0, 0.75);
+}
+
+.black:hover {
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+.silver:hover {
+	background-color: rgba(192, 192, 192, 0.75);
+}
+
+.purple:hover {
+	background-color: rgba(128, 94, 115, 0.75);
+}
+
+.brown:hover {
+	background-color: rgba(130, 51, 41, .74);
+}
+
+.rose:hover {
+	background-color: rgba(213, 96, 98, 0.75);
+}
+
+.maroon:hover {
+	background-color: rgba(135, 61, 72, 0.75);
+}
+
+.turquoise:hover {
+	background-color: rgba(155, 13, 13, 0.75);
+}
+
+.iris:hover {
+	background-color: rgba(87, 97, 213, 0.75);
+}
+
+.gray:hover {
+	background-color: rgba(87, 83, 102, 0.75);
+}
+
+.cadet-blue:hover {
+	background-color: rgba(88, 164, 176, 0.75);
+}
+
+.bright-red:hover {
+	background-color: rgba(242, 27, 63, 0.75);
+}

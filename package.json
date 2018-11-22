@@ -1,0 +1,22 @@
+{
+  "name": "harry-potter-escape-room",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "nohup npm start >& /dev/null &"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephdangerstewart/harry-potter-escape-room.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josephdangerstewart/harry-potter-escape-room/issues"
+  },
+  "homepage": "https://github.com/josephdangerstewart/harry-potter-escape-room#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
